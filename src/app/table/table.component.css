@@ -16,6 +16,15 @@ mat-icon {
   background: #ecfaff 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+icon {
+  top: 119px;
+  left: 150px;
+  width: 24px;
+  height: 24px;
+  /* UI Properties */
+  background: #0070a9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 h2 {
   top: 337px;
   left: 91px;
