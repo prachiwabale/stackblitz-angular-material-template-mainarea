@@ -25,17 +25,29 @@ icon {
   background: #0070a9 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-h1{
+p {
+  top: 240px;
+  left: 90px;
+  width: 1145px;
+  height: 50px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 20px/28px Proxima Nova;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
+}
+h1 {
   top: 184px;
-left: 90px;
-width: 297px;
-height: 36px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 32px/20px Proxima Nova;
-letter-spacing: 0px;
-color: #555555;
-opacity: 1;
+  left: 90px;
+  width: 297px;
+  height: 36px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 32px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #555555;
+  opacity: 1;
 }
 h2 {
   top: 337px;
