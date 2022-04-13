@@ -1,6 +1,6 @@
 <div class="container">
-<mat-icon color="accent">error</mat-icon>
-<h1>Account At Glance</h1>
+  <mat-icon color="accent">error</mat-icon>
+  <h1>Account At Glance</h1>
   <p>NOTE:The oldest outstanding invoces must be paid first</p>
 
   <mat-table #table [dataSource]="dataSource">
@@ -35,7 +35,7 @@
 
   <!-- Position Column -->
 
-  <mat-table #table [dataSource]="dataSource">
+  <mat-table #table [dataSource]="dataSourc1">
     <ng-container matColumnDef="position">
       <mat-header-cell *matHeaderCellDef> No. </mat-header-cell>
       <mat-cell *matCellDef="let element"> {{ element.position }} </mat-cell>
