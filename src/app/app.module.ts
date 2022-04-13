@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { MaterialModule } from './material.module';
 import { AppComponent } from './app.component';
 import { TableComponent } from './table/table.component';
+import { Table2Component } from './table2/table2.component';
 
 @NgModule({
   imports: [
