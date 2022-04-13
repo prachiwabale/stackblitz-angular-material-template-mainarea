@@ -94,13 +94,13 @@ datasource {
   color: #555555;
   opacity: 1;
 }
-h3{
+h3 {
   top: 934px;
-left: 1377px;
-width: 423px;
-height: 65px;
-/* UI Properties */
-background: #0070A9 0% 0% no-repeat padding-box;
-border: 2px solid #CCCCCC;
-opacity: 1;
+  left: 1377px;
+  width: 423px;
+  height: 65px;
+  /* UI Properties */
+  background: #0070a9 0% 0% no-repeat padding-box;
+  border: 2px solid #cccccc;
+  opacity: 1;
 }
