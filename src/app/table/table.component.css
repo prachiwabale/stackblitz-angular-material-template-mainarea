@@ -1,19 +1,53 @@
-div{
+div {
   top: 103px;
-left: -1px;
-width: 1378px;
-height: 896px;
+  left: -1px;
+  width: 1378px;
+  height: 896px;
+  /* UI Properties */
+  background: #3996c5 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+mat-icon {
+  top: 103px;
+  left: 0px;
+  width: 1800px;
+  height: 57px;
+  /* UI Properties */
+  background: #ecfaff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+h2{
+  top: 337px;
+left: 91px;
+width: 1220px;
+height: 40px;
 /* UI Properties */
-background: #3996c5 0% 0% no-repeat padding-box;
+background: #0070A9 0% 0% no-repeat padding-box;
 opacity: 1;
 }
-mat-icon
+mat-header-cell
 {
-  top: 103px;
-left: 0px;
-width: 1800px;
-height: 57px;
+  top: 387px;
+left: 591px;
+width: 127px;
+height: 18px;
 /* UI Properties */
-background: #ECFAFF 0% 0% no-repeat padding-box;
+text-align: left;
+font: normal normal 600 16px/20px Proxima Nova;
+letter-spacing: 0px;
+color: #555555;
+opacity: 1;
+}
+mat-table
+{
+  /* Layout Properties */
+top: 337px;
+left: 91px;
+width: 1220px;
+height: 275px;
+/* UI Properties */
+background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #888888;
 opacity: 1;
 }
