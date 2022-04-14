@@ -1,40 +1,43 @@
 .main-container {
-  top: 103px;
+  top: 3px;
   left: -1px;
-  width: 1378px;
+  width: 1391px;
   height: 896px;
   /* UI Properties */
-  background: #f6f8f9 0% 0% no-repeat padding-box;
+  background: #85b4cc 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .side-container {
   /* Layout Properties */
-  top: 103px;
+  top: -896px;
   left: 1377px;
   width: 423px;
   height: 896px;
-  /* UI Properties */
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-  background: #ffffff 0% 0% no-repeat padding-box;
+  background: #cc3535 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-mat-icon {
-  top: 103px;
+.a {
+  top: 300px;
   left: 0px;
   width: 1800px;
   height: 57px;
   /* UI Properties */
-  background: #ecfaff 0% 0% no-repeat padding-box;
+  background: #315f70 0% 0% no-repeat padding-box;
   opacity: 1;
 }
+
 icon {
-  top: 119px;
-  left: 150px;
-  width: 24px;
-  height: 24px;
+  top: 122px;
+  left: 194px;
+  width: 934px;
+  height: 22px;
   /* UI Properties */
-  background: #0070a9 0% 0% no-repeat padding-box;
+  text-align: left;
+  font: normal normal normal 20px/22px Proxima Nova;
+  letter-spacing: 0px;
+  color: #0070a9;
   opacity: 1;
 }
 p {
