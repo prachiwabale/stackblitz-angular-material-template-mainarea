@@ -1,17 +1,16 @@
 .main-container {
-  top: 3px;
+  top: 1px;
   left: -1px;
-  width: 1391px;
+  width: 1378px;
   height: 896px;
   /* UI Properties */
-  background: #85b4cc 0% 0% no-repeat padding-box;
+  background: #a5cbdf 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .side-container {
-  /* Layout Properties */
   top: -896px;
-  left: 1377px;
+  left: 1378px;
   width: 423px;
   height: 896px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
