@@ -49,22 +49,10 @@
   position: absolute;
 }
 
-icon {
-  top: 122px;
-  left: 194px;
-  width: 934px;
-  height: 22px;
-  /* UI Properties */
-  text-align: left;
-  font: normal normal normal 20px/22px Proxima Nova;
-  letter-spacing: 0px;
-  color: #0070a9;
-  opacity: 1;
-}
 p {
-  top: 240px;
-  left: 90px;
-  width: 1145px;
+  top: 100px;
+  left: 200px;
+  width: 950px;
   height: 50px;
   /* UI Properties */
   text-align: left;
@@ -72,9 +60,10 @@ p {
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
+  padding: 10px;
 }
 h1 {
-  top: 184px;
+  top: 100px;
   left: 90px;
   width: 297px;
   height: 36px;
@@ -84,6 +73,7 @@ h1 {
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
+  padding: 10px;
 }
 h2 {
   top: 952px;
