@@ -136,7 +136,7 @@
 
 .browser > h2 {
   position: relative;
-  top: 10vh;
+  top: 7vh;
   left: 5vh;
   width: 250px;
   height: 16px;
@@ -151,7 +151,7 @@
 }
 .browser > p {
   position: relative;
-  top: 10vh;
+  top: 7vh;
   left: 30px;
   width: 319px;
   height: 69px;
