@@ -24,6 +24,17 @@ const TABLE2DATA: DataElememt[] = [
   { position: 2, name: 'Helium', weight: 4.0026, symbol: 'He' },
   { position: 3, name: 'Lithium', weight: 6.941, symbol: 'Li' },
 ];
+
+function scrollleft()
+  {
+    var left=document.querySelector(".browser");
+    left.scrollBy(350,0);
+  }
+  function scrollright()
+  {
+    var righte=document.querySelector(".browser");
+    righte.scrollBy(350,0);
+  }
 @Component({
   selector: 'app-table',
   templateUrl: './table.component.html',
@@ -32,6 +43,7 @@ const TABLE2DATA: DataElememt[] = [
 export class TableComponent implements OnInit {
   displayedColumns: string[] = ['position', 'name', 'weight', 'symbol'];
   displayedColumns1: string[] = ['position', 'name', 'weight', 'symbol'];
+  
   dataSource = ELEMENT_DATA;
   dataSource1 = TABLE2DATA;
   constructor() {}

@@ -127,11 +127,17 @@
 .right {
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  position: absolute;
+  top: 10vh;
+  left: 330px;
 }
 
 .left {
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+  position: absolute;
+  top: 10vh;
+  left: 285px;
 }
 
 .browser > h2 {
@@ -151,15 +157,16 @@
 }
 .browser > p {
   position: relative;
-  top: 7vh;
+  top: 6vh;
   left: 30px;
-  width: 319px;
+  width: 315px;
   height: 69px;
 
   font: normal normal normal 14px/18px Proxima Nova;
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
+  margin-bottom: 5px;
 }
 
 .div > side-container {
