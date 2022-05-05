@@ -1,18 +1,26 @@
+.header1 {
+  top: 42px;
+  left: 6px;
+  width: 1800px;
+  height: 57px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 .notification {
-  position: absolute;
-  top: -4vh;
+  top: 103px;
   left: 0px;
-  width: 207vh;
-  height: 45px;
+  width: 1800px;
+  height: 57px;
   /* UI Properties */
   background: #ecfaff 0% 0% no-repeat padding-box;
   opacity: 1;
-  border-bottom: 1px solid #00a7e1;
 }
 .title > h1 {
   position: absolute;
-  top: 2vh;
-  left: 0px;
+  top: 184px;
+  left: 90px;
   width: 297px;
   height: 36px;
   /* UI Properties */
@@ -21,8 +29,6 @@
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
-  padding: 10px;
-  margin: 20px 25px 50px 75px;
 }
 .title > p {
   position: absolute;
@@ -41,16 +47,13 @@
   bottom: 10vh;
 }
 .main-container {
-  position: absolute;
-  top: 100px;
-  left: 0px;
-  width: 70vw;
-  height: 84.2vh;
+  top: 103px;
+  left: -1px;
+  width: 1378px;
+  height: 896px;
   /* UI Properties */
-
-  opacity: 1;
   background: #f6f8f9 0% 0% no-repeat padding-box;
-  border-bottom: 1px solid #0070a9;
+  opacity: 1;
 }
 .side-container {
   position: absolute;
@@ -62,15 +65,14 @@
 }
 .right-side {
   position: absolute;
-  top: 91.5vh;
-  left: 955px;
-  width: 29.5vw;
-  height: 50px;
-  /* UI Properties */
-  background: #0070a9 0% 0% no-repeat padding-box;
-  border: 2px solid #cccccc;
-  opacity: 1;
-  color: #383535;
+  top: 790px;
+left: 425px;
+width: 423px;
+height: 65px;
+/* UI Properties */
+background: #0070A9 0% 0% no-repeat padding-box;
+border: 2px solid #CCCCCC;
+opacity: 1;
 }
 .b {
   position: absolute;
@@ -83,15 +85,16 @@
   opacity: 1;
 }
 .side-container > h1 {
-  position: relative;
-  top: 5vh;
-  left: 5vh;
-  width: 68px;
-  height: 27px;
-  /* UI Properties */
-  text-align: left;
-  letter-spacing: 0px;
-  opacity: 1;
+  top: 952px;
+left: 1401px;
+width: 170px;
+height: 29px;
+/* UI Properties */
+text-align: center;
+font: normal normal normal 26px/20px Proxima Nova;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
 
 .border {
@@ -142,9 +145,9 @@
 
 .browser > h2 {
   position: relative;
-  top: 7vh;
+  top: 9vh;
   left: 5vh;
-  width: 250px;
+  width: 319px;
   height: 16px;
   padding-top: 15px;
   /* UI Properties */
@@ -157,9 +160,9 @@
 }
 .browser > p {
   position: relative;
-  top: 6vh;
+  top: 7vh;
   left: 30px;
-  width: 315px;
+  width: 319px;
   height: 69px;
 
   font: normal normal normal 14px/18px Proxima Nova;
@@ -168,7 +171,15 @@
   opacity: 1;
   margin-bottom: 5px;
 }
-
+.footer1 {
+  top: 999px;
+  left: 0px;
+  width: 1800px;
+  height: 238px;
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
 .div > side-container {
   height: 1000px;
 }
