@@ -55,7 +55,7 @@
 .side-container {
   position: absolute;
   top: 100px;
-  left: 960px;
+  left: 970px;
   width: 29.3vw;
   height: 84.2vh;
   opacity: 1;
@@ -68,7 +68,7 @@
   height: 65px;
   /* UI Properties */
   background: #0070a9 0% 0% no-repeat padding-box;
-  border: 2px solid #cccccc;
+  border: 2px solid #ac9999;
   opacity: 1;
 }
 .b {
@@ -84,7 +84,7 @@
 .side-container > h1 {
   position: absolute;
   top: 50px;
-  left: 500px;
+  left: 470px;
   width: 68px;
   height: 27px;
   /* UI Properties */
@@ -97,9 +97,9 @@
 
 .border {
   position: absolute;
-  top: 18vh;
-  left: 500px;
-  width: 290px;
+  top: 9vh;
+  left: 470px;
+  width: 319px;
   height: 0px;
   /* UI Properties */
   border: 1px solid #cccccc;
@@ -140,33 +140,33 @@
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
   position: absolute;
-  top: 10vh;
+  top: 65px;
   left: 720px;
 }
 
 .browser > h2 {
   position: relative;
   top: 130px;
-  left: 500px;
+  left: 470px;
   width: 319px;
   height: 16px;
   padding-top: 15px;
   /* UI Properties */
   text-align: left;
   text-decoration: underline;
-  font: normal normal bold 14px/18px Proxima Nova;
+  font: normal normal bold 18px/22px Proxima Nova;
   letter-spacing: 0px;
   color: #0070a9;
   opacity: 1;
 }
 .browser > p {
   position: relative;
-  top: 120px;
-  left: 500px;
+  top: 130px;
+  left: 470px;
   width: 300px;
   height: 69px;
 
-  font: normal normal normal 14px/18px Proxima Nova;
+  font: normal normal normal 16px/18px Proxima Nova;
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
