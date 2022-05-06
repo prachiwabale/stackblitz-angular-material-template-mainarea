@@ -97,10 +97,13 @@
 
 .border {
   position: absolute;
-  top: 17vh;
-  left: 5vh;
-  width: 50vh;
-  border-bottom: 2px solid #ac9f9f;
+  top: 18vh;
+  left: 500px;
+  width: 290px;
+  height: 0px;
+  /* UI Properties */
+  border: 1px solid #cccccc;
+  opacity: 1;
 }
 .right-side > h1 {
   position: absolute;
@@ -143,8 +146,8 @@
 
 .browser > h2 {
   position: relative;
-  top: 9vh;
-  left: 5vh;
+  top: 130px;
+  left: 500px;
   width: 319px;
   height: 16px;
   padding-top: 15px;
@@ -158,9 +161,9 @@
 }
 .browser > p {
   position: relative;
-  top: 7vh;
-  left: 30px;
-  width: 319px;
+  top: 120px;
+  left: 500px;
+  width: 300px;
   height: 69px;
 
   font: normal normal normal 14px/18px Proxima Nova;
