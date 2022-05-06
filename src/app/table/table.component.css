@@ -15,6 +15,7 @@
   height: 57px;
   /* UI Properties */
   background: #ecfaff 0% 0% no-repeat padding-box;
+  border-bottom: 1px solid #00a7e1;
   opacity: 1;
 }
 .title > h1 {
@@ -50,6 +51,7 @@
   height: 896px;
   /* UI Properties */
   background: #f6f8f9 0% 0% no-repeat padding-box;
+  border-bottom: 1px solid #0070a9;
   opacity: 1;
 }
 .side-container {
@@ -63,7 +65,7 @@
 .right-side {
   position: absolute;
   top: 790px;
-  left: 425px;
+  left: 420px;
   width: 423px;
   height: 65px;
   /* UI Properties */
