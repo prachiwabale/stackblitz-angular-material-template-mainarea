@@ -186,3 +186,74 @@
 .div > side-container {
   height: 1000px;
 }
+.table1 {
+  position: absolute;
+  top: 337px;
+  left: 91px;
+  width: 1220px;
+  height: 275px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #888888;
+  opacity: 1;
+}
+.table2 {
+  position: absolute;
+  top: 631px;
+  left: 91px;
+  width: 1220px;
+  height: 275px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #888888;
+  opacity: 1;
+}
+.tableheader1 {
+  top: 337px;
+  left: 91px;
+  width: 1220px;
+  height: 40px;
+  /* UI Properties */
+  background: #0070a9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.tableheader2 {
+  top: 631px;
+  left: 91px;
+  width: 1220px;
+  height: 40px;
+  /* UI Properties */
+  background: #0070a9 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.headername1 > h1 {
+  position: absolute;
+  top: 335px;
+  left: 121px;
+  width: 211px;
+  height: 22px;
+  /* UI Properties */
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal bold 20px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
+.headername2 > h1 {
+  position: absolute;
+  top: 630px;
+  left: 121px;
+  width: 320px;
+  height: 22px;
+  /* UI Properties */
+
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal bold 20px/20px Proxima Nova;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
