@@ -1,4 +1,4 @@
-.header1 {
+.headerarea {
   top: 42px;
   left: 6px;
   width: 1800px;
@@ -18,7 +18,7 @@
   border-bottom: 1px solid #00a7e1;
   opacity: 1;
 }
-.title > h1 {
+.main-container > h1 {
   position: absolute;
   top: 184px;
   left: 90px;
@@ -31,7 +31,7 @@
   color: #555555;
   opacity: 1;
 }
-.title > p {
+.main-container > p {
   position: absolute;
   top: 240px;
   left: 90px;
@@ -56,16 +56,20 @@
 }
 .side-container {
   position: absolute;
-  top: 100px;
-  left: 970px;
-  width: 29.3vw;
-  height: 84.2vh;
+  top: 120px;
+  left: 1385px;
+  width: 425px;
+  height: 84px;
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-top: 1px solid #00a7e1;
   opacity: 1;
 }
 .right-side {
   position: absolute;
-  top: 790px;
-  left: 420px;
+  top: 770px;
+  left: 1px;
   width: 423px;
   height: 65px;
   /* UI Properties */
@@ -86,7 +90,7 @@
 .side-container > h1 {
   position: absolute;
   top: 50px;
-  left: 470px;
+  left: 100px;
   width: 68px;
   height: 27px;
   /* UI Properties */
@@ -100,8 +104,8 @@
 .border {
   position: absolute;
   top: 9vh;
-  left: 470px;
-  width: 319px;
+  left: 75px;
+  width: 300px;
   height: 0px;
   /* UI Properties */
   border: 1px solid #cccccc;
@@ -135,7 +139,8 @@
   -webkit-transform: rotate(-45deg);
   position: absolute;
   top: 65px;
-  left: 775px;
+  left: 350px;
+  font: bold;
 }
 
 .left {
@@ -143,14 +148,15 @@
   -webkit-transform: rotate(135deg);
   position: absolute;
   top: 65px;
-  left: 720px;
+  left: 300px;
+  font: bold;
 }
 
 .browser > h2 {
   position: relative;
   top: 130px;
-  left: 470px;
-  width: 319px;
+  left: 75px;
+  width: 300px;
   height: 16px;
   padding-top: 15px;
   /* UI Properties */
@@ -164,7 +170,7 @@
 .browser > p {
   position: relative;
   top: 130px;
-  left: 470px;
+  left: 75px;
   width: 300px;
   height: 69px;
 
