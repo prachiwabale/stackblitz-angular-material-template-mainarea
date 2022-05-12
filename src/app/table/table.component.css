@@ -26,7 +26,7 @@
   height: 36px;
   /* UI Properties */
   text-align: left;
-  font: normal normal normal 32px/20px Proxima Nova;
+  font: normal normal normal 32px/20px proxima-nova, sans-serif;
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
@@ -39,7 +39,7 @@
   height: 50px;
   /* UI Properties */
   text-align: left;
-  font: normal normal normal 20px/28px Proxima Nova;
+  font: normal normal normal 20px/28px proxima-nova, sans-serif;
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
@@ -95,7 +95,7 @@
   height: 27px;
   /* UI Properties */
   text-align: left;
-  font: normal normal bold 24px/20px Proxima Nova;
+  font: normal normal bold 24px/20px proxima-nova, sans-serif;
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
@@ -114,12 +114,12 @@
 .right-side > h1 {
   position: absolute;
   top: 0vh;
-  width: 170px;
+  width: 320px;
   height: 29px;
-  left: 10px;
+  left: -50px;
   /* UI Properties */
   text-align: center;
-  font: normal normal normal 26px/20px Proxima Nova;
+  font: normal normal normal 26px/20px proxima-nova, sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -156,13 +156,13 @@
   position: relative;
   top: 130px;
   left: 75px;
-  width: 300px;
+  width: 320px;
   height: 16px;
   padding-top: 15px;
   /* UI Properties */
   text-align: left;
   text-decoration: underline;
-  font: normal normal bold 18px/22px Proxima Nova;
+  font: normal normal bold 20px/16px proxima-nova;
   letter-spacing: 0px;
   color: #0070a9;
   opacity: 1;
@@ -174,7 +174,7 @@
   width: 300px;
   height: 69px;
 
-  font: normal normal normal 16px/18px Proxima Nova;
+  font: normal normal normal 16px/18px proxima-nova;
   letter-spacing: 0px;
   color: #555555;
   opacity: 1;
@@ -238,12 +238,12 @@
   position: absolute;
   top: 335px;
   left: 121px;
-  width: 211px;
+  width: 320px;
   height: 22px;
   /* UI Properties */
   text-align: left;
   text-decoration: underline;
-  font: normal normal bold 20px/20px Proxima Nova;
+  font: normal normal bold 20px/18px proxima-nova, sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
@@ -258,7 +258,7 @@
 
   text-align: left;
   text-decoration: underline;
-  font: normal normal bold 20px/20px Proxima Nova;
+  font: normal normal bold 20px/18px proxima-nova, sans-serif;
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
